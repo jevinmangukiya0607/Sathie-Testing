@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, .login-container, .login-container .company-profile, .login-container .company-profile .logo, .terms-forgot, .terms-forgot .terms-container,.login-container form .login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Poppins';
+    padding: 0 50px;
+    background: #FAFAFA;
+}
+
+.login-container {
+    flex-direction: column;
+    width: 90%;
+    background: #fff;
+    padding: 50px 150px;
+}
+
+.login-container .company-profile, .login-container .company-profile .logo {
+    flex-direction: column;
+}
+
+.login-container .company-profile .logo p {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.login-container .company-profile .user-guide {
+    width: 80%;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #565656;
+    margin-top: 10px;
+}
+
+.login-container .divider {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 30px 0;
+}
+
+.login-container form {
+    width: 100%;
+}
+
+
+.login-container form .input-field-container .input-container label {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 14px;
+}
+
+.login-container form .input-field-container .input-container input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 0 15px;
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.terms-forgot {
+    justify-content: space-between;
+}
+
+.terms-forgot .terms-container input {
+    width: 25px;
+    height: 25px;
+}
+
+.terms-forgot .terms-container .terms {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-left: 15px;
+}
+
+.terms-forgot .forgot-password {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    background: linear-gradient(91.24deg, #4F4DC1 0%, #41409E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.login-container form .login-btn{
+    margin: 35px 0;
+    margin-bottom: 50px;
+}
+
+.login-container form .login-btn button {
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: linear-gradient(91.24deg, #4F4DC1 0%, #41409E 100%);
+    border-radius: 10px;
+}
+
+.login-container .privacy-read a{
+    color: #41409E;
+    font-weight: 600;
+    text-decoration: none;
+}
